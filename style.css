@@ -228,6 +228,7 @@ flex-grow: 0;
 
 .info {
     display: block;
+    margin-bottom: 42px;    
 }
 
 .article {
@@ -239,14 +240,13 @@ flex-grow: 0;
 }
 
 .info-footer {
-    display: flex;
     margin-top: 70px;
     margin-bottom: 36px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     padding: 0px;
-    gap: 325px;
+    /* gap: 325px; */
     justify-content: flex-start;
     width: 755px;
     height: 30px;
@@ -263,7 +263,7 @@ flex-grow: 0;
     gap: 8px;
 
     width: 107px;
-    height: 30px;
+    /* height: 30px; */
 
     background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
     border-radius: 100px;
