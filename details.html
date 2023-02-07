@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="details-style.css" />
+    <title>Media as Medium</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header-logo">
+        <img src="./images/Logo.png" alt="Логотип" />
+      </div>
+    </header>
+    <main class="page-main">
+        <header class="page-main-header">          
+            <div class="page-main-header-logo">
+                <img src="./images/Left.png" alt="На главную" />
+            </div>
+        </header>
+        <div class="news">
+            <div class = "info">
+                <div class="info-header">
+                    <img src="./images/Author.png">
+                    <span class="author-name">Authors name</span>
+                    <span class="in">in</span>
+                    <span class="topics-name">Topics Name</span>
+                    <span class="info-delim">·</span>
+                    <span class="info-date">${day} ${month}</span>
+                </div>
+                <div class = "article">
+                    <header class="article-header">
+                        <h1></h1>
+                    </header>
+                    <article class = "article-text">
+                         
+                    </article>
+                </div>  
+                <div class = "info-footer">
+                    <div type="button" class="news-category-button">
+                        <span class = "news-category">${item.section}</span>
+                    </div> 
+                    <div class="min-read">12 min read</div>
+                    <div class="for-you">Selected for you</div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="${imageUrl}">
+            </div>
+
+         </div>
+    </main>
+    <footer class="page-footer"></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

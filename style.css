@@ -1,25 +1,67 @@
+body {
+/* News List */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 2388px;
+
+background: #F1F1F1;    
+}
+
 .page-header {
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    /* border-width: 1px; */
-    /* border-color: black; */
-    /* border-style: solid; */
-    /* width: 80%; */
+    border-width: 1px; 
+    border-color: black;
+    border-style: solid; 
+
+    width: 80%;
     height: 70px;
     margin: 24px 160px;
 }    
 
-
 .page-main {
     /* gap: 100px; */
-    /* border-width: 1px;
+    border-width: 1px;
     border-color: black;
-    border-style: solid; */
+    border-style: solid;
+    
     width: 80%; 
     margin: 24px 160px;
     /* height: 248px; */
+}
+
+.page-footer {
+    /* Footer */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 778px 160px 32px;
+    gap: 32px;
+    width: 80%;
+    height: 918px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0; 
+    
+    
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 24px 160px;
 }
 
 .page-main-header {
@@ -47,6 +89,7 @@
 
 .news {
     display: flex;
+    margin-top: 45px;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
@@ -349,5 +392,51 @@ flex-grow: 0;
     /* Inside auto layout */
     flex: none;
     order: 3;
+    flex-grow: 0;
+}
+
+.credits {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 608px;
+    height: 38px;
+
+    border-radius: 100px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.credits-text {
+    /* label-text */
+    width: 584px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
     flex-grow: 0;
 }

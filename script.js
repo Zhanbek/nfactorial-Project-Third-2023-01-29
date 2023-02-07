@@ -73,7 +73,7 @@ fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=zOQjJ9rnQUPkw
           </div>
           <div class = "article">
             <header class="article-header">
-              <h1>${item.title}</h1>
+              <a href="details.html"><h1>${item.title}</h1></a>
             </header>
             <article class = "article-text">
                ${item.abstract} 
