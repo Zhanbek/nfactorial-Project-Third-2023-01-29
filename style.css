@@ -7,7 +7,7 @@
   border-color: black;
   border-style: solid; */
 
-  width: 80%;
+  width: 1120px;
   height: 70px;
   margin: 24px 160px;
 }
@@ -18,7 +18,7 @@
   border-color: black;
   border-style: solid; */
 
-  width: 80%;
+  width: 1120px;
   margin: 24px 160px;
   /* height: 248px; */
 }
@@ -31,7 +31,7 @@
   align-items: flex-end;
   /* padding: 778px 160px 32px; */
   gap: 32px;
-  width: 80%;
+  width: 1120px;
   height: 100px;
 
   /* Inside auto layout */
@@ -214,12 +214,13 @@
 .image {
   margin-bottom: 111px;
   margin-left: 100px;
+  width: 265px;
+  height: 265px;  
 }
 
 .image img {
   /* Img */
-  width: 265px;
-  height: 265px;
+
 
   background: url(image.png);
   border-radius: 4px;
@@ -252,6 +253,10 @@
   /* border-width: 1px;
   border-color: black;
   border-style: solid; */
+
+  width: 693px;
+  /* height: 174px; */
+
 }
 
 .article {
